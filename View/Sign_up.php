@@ -46,7 +46,7 @@ if (isset($_POST['signup'])) {
     if($flag)
     {
         ob_clean();
-        header("location:http://localhost/Hansil/Mini_Project/View/login.php"); // Redirect to the login page
+        header("location:./Mini_Project/View/login.php"); // Redirect to the login page
         exit();
     }
 }

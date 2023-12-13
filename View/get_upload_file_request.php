@@ -18,7 +18,7 @@
         $fileExtension = strtolower(end($fileExtension));
         $newFileName = $fileName . "_" . date('d-m-Y_G-i-sa') . "." . $fileExtension;
 
-        $targetDirectory = "C:\\xampp\\htdocs\\Hansil\\Mini_Project\\uploads\\" . $newFileName;
+        $targetDirectory = "\\Mini_Project\\uploads\\" . $newFileName;
         move_uploaded_file($_FILES['excel']['tmp_name'], $targetDirectory);
         // rest of the code
 
@@ -29,7 +29,7 @@
         );
 
         // Set API endpoint URL
-        $url = "http://localhost/Hansil/Mini_Project/main.php/upload";
+        $url = "/Mini_Project/main.php/upload";
 
         // Initialize cURL session
         $ch = curl_init();

@@ -23,8 +23,8 @@ class UserModel
     public function insertStudent($file,$email)
     {
         error_reporting(0);
-        require 'C:\\xampp\\htdocs\\Hansil\\Mini_Project\\excelReader\\excel_reader2.php';
-        require 'C:\\xampp\\htdocs\\Hansil\\Mini_Project\\excelReader\\SpreadsheetReader.php';
+        require '\\Mini_Project\\excelReader\\excel_reader2.php';
+        require '\\Mini_Project\\excelReader\\SpreadsheetReader.php';
 
         $reader = new SpreadsheetReader($file);
         try {

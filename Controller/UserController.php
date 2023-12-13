@@ -1,5 +1,5 @@
 <?php
-include_once('C:\\xampp\\htdocs\\Hansil\\Mini_Project\\Modals\\UserModel.php');
+include_once('Mini_Project\\Modals\\UserModel.php');
 
 class UserController
 {
